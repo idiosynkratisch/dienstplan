@@ -6,7 +6,7 @@
  2. Collect the results in a folder. Run `skript.py`; it will ask you (in German) to specify the folder with the filled-in forms. For each person, it will then ask you how many shifts that person would maximally like to take.
  3. The best schedules will be put in `Best Plans.txt` in the format of the form, as well as in `Best Plans.json` in JSON. Plans are lists of 20 names, including `---` if it's not possible to fill all shifts with the people available based on the preference forms and maximum number of shifts.
  
- The best schedules are those maximally matching the preferences, as measured by the sum of the scores people gave to the time slots they have been assigned. Since ties are possible, there may be more than one, all are then included in the output, sorted by displaying those with minimum variance first.
+ The best schedules are those maximally matching the preferences, as measured by the sum of the scores people gave to the time slots they have been assigned. Since ties are possible, there may be more than one; all are then included in the output, sorted by displaying those with minimum variance first.
  
 # Known Bugs
 
